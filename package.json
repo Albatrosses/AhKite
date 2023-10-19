@@ -1,6 +1,6 @@
 {
   "name": "@albatrosses/ah-kite",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "UI components, colors, fonts and style for Albatrosses",
   "scripts": {
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore . --fix",
