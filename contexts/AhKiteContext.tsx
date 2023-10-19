@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { Theme } from "../constants/styleEnum";
@@ -23,7 +24,7 @@ type TContext = {
   setTheme: React.Dispatch<React.SetStateAction<Theme>>;
 };
 
-export const AhuiContext = createContext<TContext>({
+export const AhKiteContext = createContext<TContext>({
   theme: Theme.Light,
   setTheme: () => {},
 });
@@ -39,7 +40,7 @@ export const AhKite: React.FC<TProps> = ({
   const [theme, setTheme] = useState(defaultTheme);
 
   return (
-    <AhuiContext.Provider
+    <AhKiteContext.Provider
       value={{
         theme,
         setTheme,
@@ -50,6 +51,6 @@ export const AhKite: React.FC<TProps> = ({
       >
         {children}
       </ThemeProvider>
-    </AhuiContext.Provider>
+    </AhKiteContext.Provider>
   );
 };
