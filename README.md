@@ -1,4 +1,4 @@
-# Ahui
+# AhKite
 
 > UI components, colors, fonts and style for Albatrosses
 
@@ -10,21 +10,21 @@
 ## Install
 
 ```
-npm install @albatrosses/ahui
+npm install @albatrosses/ah-kite
 ```
 
 ## Usage
-Import `@albatrosses/ahui` and `@albatrosses/ahui/styles/index.css` in your root component
+Import `@albatrosses/ah-kite` and `@albatrosses/ah-kite/styles/index.css` in your root component
 
 ```js
-import { Language } from "@albatrosses/ahui";
+import { Language } from "@albatrosses/ah-kite";
 
 const App: React.FC = () => {
   return (
     <Language languages={languages}>
-      <Ahui>
+      <AhKite>
         <App />
-      </Ahui>
+      </AhKite>
     </Language>
   );
 };

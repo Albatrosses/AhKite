@@ -28,7 +28,7 @@ export const AhuiContext = createContext<TContext>({
   setTheme: () => {},
 });
 
-export const Ahui: React.FC<TProps> = ({
+export const AhKite: React.FC<TProps> = ({
   children,
   theme: defaultTheme = Theme.Light,
   palette = defaultPalette,

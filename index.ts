@@ -1,6 +1,6 @@
 export { Language, LanguageContext } from "./contexts/LanguageContext";
 export { LanguageToken } from "./constants/languageEnum";
-export { Ahui, AhuiContext } from "./contexts/AhuiContext";
+export { AhKite, AhuiContext } from "./contexts/AhuiContext";
 export {
   Theme,
   Color,
