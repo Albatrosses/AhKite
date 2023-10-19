@@ -1,6 +1,6 @@
 {
   "name": "@albatrosses/ah-kite",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "UI components, colors, fonts and style for Albatrosses",
   "scripts": {
     "build": "rm -rf ./lib && tsc --build tsconfig.json && cp -r ./fonts ./styles ./lib",
