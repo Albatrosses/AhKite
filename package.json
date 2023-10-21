@@ -5,7 +5,7 @@
   "scripts": {
     "build": "rm -rf ./lib && tsc --build tsconfig.json && cp -r ./fonts ./styles ./lib",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore . --fix",
-    "push": "rm -rf ./lib && tsc --build tsconfig.json && cp -r ./fonts ./styles ./lib && npm version patch && npm publish --access public && rm -rf ./lib"
+    "push": "npm run build && npm version patch && npm publish --access public && rm -rf ./lib"
   },
   "browserslist": [
     "last 3 versions",
@@ -24,6 +24,7 @@
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
+    "@types/node": "^20.8.7",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@types/styled-components": "^5.1.28",

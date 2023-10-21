@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2015",
     "module": "commonjs",
     "sourceMap": true,
     "declaration": true,
@@ -17,7 +17,7 @@
     "./contexts",
     "./fonts",
     "./helpers",
-    "./style",
+    "./styles",
     "./types",
     "index.ts"
   ]
